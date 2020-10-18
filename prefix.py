@@ -27,3 +27,5 @@ class Solution:
         :type strs: List[str]
         :rtype: str
         """
+        if not strs: return ""
+        if len(strs) == 1: return strs[0]
