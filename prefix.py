@@ -22,4 +22,8 @@
 # strs[i] consists of only lower-case English letters.
 
 class Solution:
-    def longestCommonPrefix
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """
